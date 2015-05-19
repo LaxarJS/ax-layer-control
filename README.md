@@ -1,6 +1,6 @@
 # AxLayerControl
 
-> A layer with stacking and focus-handling, can be used to implement popups/popovers
+> A layer with stacking and focus-handling as an AngularJS directive, for LaxarJS widgets.
 
 
 ## Installation
@@ -13,13 +13,20 @@ For general information on installing, styling and optimizing controls, have a l
 Install the control:
 
 ```sh
-bower install laxarjs.ax-layer-control
+bower install laxar-layer-control
 ```
 
-Reference the control from the `widget.json` of your widget:
+Make sure that `jquery` can be found by RequireJS.
+For example, assuming that your `baseUrl` is `'bower_components'`, add this to the `paths` section of your `require_config.js`:
+
+```js
+jquery: 'jquery/dist/jquery'
+```
+
+Now you may reference the control from the `widget.json` of your widget:
  
 ```json
-   "controls": [ "laxarjs.ax-layer-control" ]
+"controls": [ "laxar-layer-control" ]
 ```
 
 
