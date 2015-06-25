@@ -2,6 +2,7 @@
 
 ## Last Changes
 
+- [#3](https://github.com/LaxarJS/ax-layer-control/issues/3): Removed event handlers on destroy
 - [#2](https://github.com/LaxarJS/ax-layer-control/issues/2): Clearing timeouts properly
 
 
