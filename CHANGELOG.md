@@ -2,6 +2,8 @@
 
 ## Last Changes
 
+- [#3](https://github.com/LaxarJS/ax-layer-control/issues/3): Removed event handlers on destroy
+
 
 ## v1.0.1
 
