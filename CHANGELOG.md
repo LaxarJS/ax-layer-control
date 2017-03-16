@@ -3,6 +3,8 @@
 ## Last Changes
 
 
+## v2.0.0-alpha.0
+
 - [#4](https://github.com/LaxarJS/ax-layer-control/issues/4): project: upgrade to LaxarJS v2
     + **BREAKING CHANGE:** see ticket for details
 - [#3](https://github.com/LaxarJS/ax-layer-control/issues/3): Removed event handlers on destroy

@@ -1,6 +1,6 @@
 {
   "name": "laxar-layer-control",
-  "version": "1.1.0-pre",
+  "version": "2.0.0-alpha.0",
   "description": "A layer with stacking and focus-handling as an AngularJS directive, for LaxarJS widgets.",
   "homepage": "http://laxarjs.org",
   "main": "laxar-layer-control.js",
