@@ -1,35 +1,19 @@
-# AxLayerControl
+# laxar-layer-control
 
 > A layer with stacking and focus-handling as an AngularJS directive, for LaxarJS widgets.
 
 
 ## Installation
 
-To retrieve a copy of this control you can either clone it directly using git or alternatively install it via Bower.
-For general information on installing, styling and optimizing controls, have a look at the [LaxarJS documentation](https://github.com/LaxarJS/laxar/blob/master/docs/manuals/installing_controls.md).
+To use this control you should install it into your LaxarJS v2 project:
 
-### Setup Using Bower
-
-Install the control:
-
-```sh
-bower install laxar-layer-control
+```console
+npm install laxar-layer-control
 ```
 
-Make sure that `jquery` can be found by RequireJS.
-For example, assuming that your `baseUrl` is `'bower_components'`, add this to the `paths` section of your `require_config.js`:
-
-```js
-jquery: 'jquery/dist/jquery'
-```
-
-Now you may reference the control from the `widget.json` of your widget:
- 
-```json
-"controls": [ "laxar-layer-control" ]
-```
+This control requires jQuery and only works for LaxarJS widget that are targeting AngularJS v1.
 
 
-## Usage
+### Usage
 
 (TODO)
