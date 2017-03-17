@@ -2,6 +2,8 @@
 
 ## Last Changes
 
+- [#5](https://github.com/LaxarJS/ax-layer-control/issues/5): fixed broken jQuery element iterator
+
 
 ## v2.0.0-alpha.0
 

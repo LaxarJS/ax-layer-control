@@ -537,16 +537,16 @@ function outsideClickHandler( event ) {
 
 function getTabbableNodes( $layer ) {
    const nodes = [];
-   $layer.find( 'input,a,button,textarea,select,[tabindex]' ).each( index => {
-      if( this.nodeType !== 1 || this.disabled ) {
+   $layer.find( 'input,a,button,textarea,select,[tabindex]' ).each( ( index, node ) => {
+      if( node.nodeType !== 1 || node.disabled ) {
          return;
       }
 
-      if( this.type === 'hidden' && this.nodeName.toLowerCase() === 'input' ) {
+      if( node.type === 'hidden' && node.nodeName.toLowerCase() === 'input' ) {
          return;
       }
 
-      const $node = $( this );
+      const $node = $( node );
       if( $node.is( ':hidden' ) ) {
          return;
       }
@@ -556,9 +556,9 @@ function getTabbableNodes( $layer ) {
          tabindex = 0;
       }
       if( tabindex >= 0 ) {
-         this.ax__tabindexForSorting = parseInt( tabindex, 10 );
-         this.ax__indexForSorting = index;
-         nodes.push( this );
+         node.ax__tabindexForSorting = parseInt( tabindex, 10 );
+         node.ax__indexForSorting = index;
+         nodes.push( node );
       }
    } );
 
