@@ -2,6 +2,9 @@
 
 ## Last Changes
 
+
+## v2.0.0
+
 - [#6](https://github.com/LaxarJS/laxar-layer-control/issues/6): renamed repository to match artifact
 
 
