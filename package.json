@@ -8,7 +8,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/LaxarJS/ax-layer-control.git"
+    "url": "https://github.com/LaxarJS/laxar-layer-control.git"
   },
   "scripts": {
     "prepublish": "npm run dist",
@@ -32,7 +32,7 @@
     "eslint-config-laxarjs": "^0.3.0",
     "karma": "^1.5.0",
     "laxar": "^2.0.0",
-    "laxar-infrastructure": "0.1.0-alpha.4",
+    "laxar-infrastructure": "^2.0.0",
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.4.1"
   },
@@ -41,7 +41,7 @@
     "laxar": "^2.0.0"
   },
   "bugs": {
-    "url": "https://github.com/LaxarJS/ax-layer-control/issues",
+    "url": "https://github.com/LaxarJS/laxar-layer-control/issues",
     "email": "info@laxarjs.org"
   }
 }
